@@ -5,6 +5,7 @@ public class App {
         System.out.println("It works :)");
     }
 }
-class test{
 
+class test{
+System.out.println("test00");
 }
