@@ -40,6 +40,6 @@ public class CreditCardApiTest {
     }
 
     private void thereIsCCApi() {
-        this.api = new CreditCardFacade();
+        this.api = new CreditCardFacade(this.storage);
     }
 }
